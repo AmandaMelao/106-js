@@ -1,0 +1,11 @@
+Receber idade
+
+Se idade >= 25 && idade <= 55
+      então Receber valor do Salario
+    Se Salario >= 1000
+          então Receber valor do EmprestimoDesejado
+         Se EmprestimoDesejado <= 5*Salario
+             então mostrar msg "Empréstimo aceito"
+        Senão mostrar msg "Empréstimo recusado devido ao valor solicitado ser alto"
+    Senão mostrar msg "Empréstimo recusado devido ao salário ser baixo"
+Senão mostrar msg "Empréstimo indisponível pela idade"

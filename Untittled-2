@@ -1,0 +1,9 @@
+Receber corP
+Receber desenhoP
+
+cor
+desenho
+
+Se (corP = cor) && (desenhoP = desenho)
+    então mostrar msg "Sua carta foi encontrada no baralho"
+Senão mostrar msg "Sua carta não se encontra no baralho"
